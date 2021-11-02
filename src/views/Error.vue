@@ -5,7 +5,7 @@
       Are you lost ?
     </p>
     <Button content="find your way here" @click="router.push('/')" />
-    <img class="error__img" src="@/assets/images/error.png" alt="error-image">
+    <img class="error__img" src="@/assets/images/error.webp" alt="error-image">
   </main>
 </template>
 

@@ -16,7 +16,7 @@ const reviewers = ref(null)
 
 onMounted(async () => {
   const response = await fetch('https://randomuser.me/api/?results=5')
-  if(!response.ok) console.error(response.statusText)
+  if(!response.ok) throw new Error(response.statusText)
   reviewers.value = await response.json()
 })
 </script>

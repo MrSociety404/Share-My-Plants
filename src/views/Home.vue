@@ -6,7 +6,7 @@
         <p class="home__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus et cras dignissim.</p>
         <Button content="SHARE HERE" />
       </div>
-      <img src="@/assets/images/home-page.png" alt="illustration" class="home__illustration">
+      <img src="@/assets/images/home-page.webp" alt="illustration" class="home__illustration">
     </section>
     <section class="home__section" v-if="popularPlants">
       <h3 class="home__subtitle">Popular plants</h3>
@@ -27,7 +27,7 @@
         :to="`/product/${plant.id}`"        
         class="home__grid-link"
         >
-          <img :src="require(`@/assets/images/${plant.image || 'home-page.png'}`)" :alt="plant.name" class="home__grid-plant">
+          <img :src="require(`@/assets/images/${plant.image || 'home-page.webp'}`)" :alt="plant.name" class="home__grid-plant">
         </router-link>
       </div>
     </section>

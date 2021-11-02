@@ -1,7 +1,7 @@
 <template>
   <router-link :to="`/product/${plant.id}`" class="card">
     <img
-      :src="require(`@/assets/images/${plant.image || 'home-page.png'}`)"
+      :src="require(`@/assets/images/${plant.image || 'home-page.webp'}`)"
       :alt="plant.name"
       class="card__image"
     />

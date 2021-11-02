@@ -8,7 +8,7 @@
     />
     <section v-if="myPlants.length === 0" class="noMatch">
       <h2 class="noMatch__title">😔 No plants here !</h2>
-      <img src="@\assets\images\store.png" alt="empty-shop" class="noMatch__img">
+      <img src="@\assets\images\store.webp" alt="empty-shop" class="noMatch__img">
       <Button content="BACK HOME" @click="router.push('/')" />
     </section>
   </main>
