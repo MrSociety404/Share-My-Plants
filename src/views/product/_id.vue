@@ -31,7 +31,7 @@ const plant = ref(null);
 
 onMounted(async () => {
   const response = await fetch(
-    `http://localhost:3000/plants/${route.params.id}`
+    `https://safe-hollows-83188.herokuapp.com/plants/${route.params.id}`
   );
   plant.value = await response.json()
 });

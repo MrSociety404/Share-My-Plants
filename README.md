@@ -1,5 +1,7 @@
 # share-my-plants
 
+api : https://safe-hollows-83188.herokuapp.com/
+
 ## Project setup
 ```
 yarn install

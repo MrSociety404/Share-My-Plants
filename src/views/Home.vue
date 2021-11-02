@@ -43,8 +43,8 @@ const plants = ref(null)
 const popularPlants = ref(null)
 
 onMounted(async () => {
-  plants.value = await (await fetch('http://localhost:3000/plants')).json()
-  popularPlants.value = await (await fetch('http://localhost:3000/popularPlants')).json()
+  plants.value = await (await fetch('https://safe-hollows-83188.herokuapp.com/plants')).json()
+  popularPlants.value = await (await fetch('https://safe-hollows-83188.herokuapp.com/popularPlants')).json()
 })
 </script>
 
